@@ -20,10 +20,13 @@ $ pip install -r requirements.text
 
 # How To Run Test
 * Run the whole test
-
+```bash
+$ sh run_all_test.sh
+```
 * The framework also support running test with different condition such as run a single test case, run a single test suite, run test by tag,...
 
-# Explaination
+# Reports
+Html report is automatically generated in `reports` folder. If a test fails at the specific step, screenshot is also captured
 
 # Why Is Robot Framework
 * Enables easy-to-use tabular syntax for creating test cases in a uniform way.
